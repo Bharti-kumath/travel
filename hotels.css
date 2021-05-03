@@ -230,7 +230,7 @@ img {
 .midtext{
   position: absolute;
   height: 100px;
-  top: 195%;
+  top: 210%;
   left: 50%;
   margin-left: -27%;
   padding: 2%;
@@ -251,7 +251,7 @@ img {
 }
 .search-box{
   position: absolute;
-  top: 210%;
+  top: 250%;
   left: 50%;
   
   transform: translate(-50%,-50%);
@@ -395,7 +395,7 @@ p .card_text {
 }
 .made_by{
   position: absolute;
-  top: 450%;
+  top: 490%;
   bottom: 0%;
   font-weight: 500;
   font-size: 33px;
