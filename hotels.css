@@ -230,7 +230,7 @@ img {
 .midtext{
   position: absolute;
   height: 100px;
-  top: 210%;
+  top: 195%;
   left: 50%;
   margin-left: -27%;
   padding: 2%;
@@ -251,7 +251,7 @@ img {
 }
 .search-box{
   position: absolute;
-  top: 250%;
+  top: 220%;
   left: 50%;
   
   transform: translate(-50%,-50%);
