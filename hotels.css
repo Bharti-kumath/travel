@@ -230,11 +230,11 @@ img {
 .midtext{
   position: absolute;
   height: 100px;
-  top: 185%;
+  top: 195%;
   left: 50%;
   margin-left: -27%;
-	padding: 2%;
-	width: 50%;  
+  padding: 2%;
+  width: 50%;  
   text-align: center;
   background-color: #29c4cf;
   font-size: x-large;
@@ -395,7 +395,7 @@ p .card_text {
 }
 .made_by{
   position: absolute;
-  top: 400%;
+  top: 450%;
   bottom: 0%;
   font-weight: 500;
   font-size: 33px;
