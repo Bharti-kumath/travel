@@ -323,6 +323,37 @@ div.gallery img {
       flex: 50%;
       max-width: 50%;
     }
+	   .checkbtn{
+      display: block;
+    }
+    
+    nav ul{
+      position: absolute;
+      width: 100%;
+      height: 35vh;
+      background: #0f2453;
+      top: 60px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+      z-index: 9999;
+    }
+    nav ul li{
+      display: block;
+      margin: 20px 0;
+      line-height: 20px;
+    }
+    nav ul li a{
+      font-size: 20px;
+    }
+    a:hover,a.active{
+      background: none;
+      color: #aae738;
+    }
+    #check:checked ~ ul{
+      left: 0;
+    }
+   
   }
   @media (max-width: 952px){
     label.logo{
@@ -415,7 +446,7 @@ div.gallery img {
       padding: 1%;
     }
     footer{
-      height: 275px;
+      height: 285px;
     }
     .contact{
       display: inline;
